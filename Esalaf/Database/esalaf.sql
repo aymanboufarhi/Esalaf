@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : sam. 01 avr. 2023 à 15:24
+-- Généré le : dim. 02 avr. 2023 à 21:50
 -- Version du serveur : 10.4.27-MariaDB
 -- Version de PHP : 8.1.12
 
@@ -39,7 +39,20 @@ CREATE TABLE `client` (
 --
 
 INSERT INTO `client` (`id_client`, `nom`, `telephone`, `cin`) VALUES
-(1, 'Ayman', '0683907376', 'K573926');
+(1, 'Ayman', '0683907376', 'K573926'),
+(2, 'Ahmed', '0393827262', 'KB262727'),
+(3, 'Imad', '0937839836', 'K383726'),
+(4, 'Salma', '0933983878', 'K388737'),
+(5, 'Hakim', '0625839127', 'K632598'),
+(6, 'Achraf', '0674916058', 'K124869'),
+(7, 'Youssef', '0621298345', 'K907142'),
+(8, 'Fahd', '0684572903', 'K238406'),
+(9, 'Mohamed', '0637482190', 'K846193'),
+(10, 'Othman', '0673509418', 'K751390'),
+(11, 'Morad', '0630827459', 'K320759'),
+(12, 'Soufian', '0690372581', 'K981647'),
+(13, 'Salim', '0665941280', 'K589324'),
+(14, 'Yassine', '0612349875', 'K743681');
 
 -- --------------------------------------------------------
 
@@ -60,7 +73,7 @@ CREATE TABLE `commande` (
 --
 
 INSERT INTO `commande` (`id`, `cin`, `produit`, `quantite`, `etat`) VALUES
-(1, 'K573926', 'Fromage', '1', 'Fromage');
+(8, 'K743681', 'Hawai', '3', 'Non payé');
 
 -- --------------------------------------------------------
 
@@ -82,7 +95,7 @@ CREATE TABLE `produit` (
 
 INSERT INTO `produit` (`id_produit`, `nom`, `prix`, `quantite`, `categories`) VALUES
 (1, 'Hawai', 13.95, '10', 'BOISSONS'),
-(2, 'Fromage', 31.46, '20', 'LAITIERS');
+(4, 'Coca Cola', 17.95, '19', 'BOISSONS');
 
 --
 -- Index pour les tables déchargées
@@ -114,19 +127,19 @@ ALTER TABLE `produit`
 -- AUTO_INCREMENT pour la table `client`
 --
 ALTER TABLE `client`
-  MODIFY `id_client` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id_client` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT pour la table `commande`
 --
 ALTER TABLE `commande`
-  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT pour la table `produit`
 --
 ALTER TABLE `produit`
-  MODIFY `id_produit` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id_produit` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
