@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="564.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.esalaf.MenuController">
+   <children>
+      <Label layoutX="188.0" layoutY="98.0" prefHeight="108.0" prefWidth="225.0" text="MENU" textAlignment="CENTER">
+         <font>
+            <Font name="Microsoft YaHei Light" size="77.0" />
+         </font>
+      </Label>
+      <Button layoutX="214.0" layoutY="223.0" mnemonicParsing="false" onAction="#switchToClients" prefHeight="60.0" prefWidth="173.0" text="Clients">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Button>
+      <Button layoutX="214.0" layoutY="314.0" mnemonicParsing="false" onAction="#switchToProducts" prefHeight="60.0" prefWidth="173.0" text="Produits">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="214.0" layoutY="406.0" mnemonicParsing="false" onAction="#switchToOrders" prefHeight="60.0" prefWidth="173.0" text="Commandes">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

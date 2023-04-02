@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="564.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.esalaf.MenuController">
+    <children>
+        <Button alignment="CENTER" layoutX="262.0" layoutY="321.0" mnemonicParsing="false" onAction="#switchToMenu" text="Commencer">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Label alignment="CENTER" layoutX="133.0" layoutY="157.0" text="Esalaf">
+         <font>
+            <Font name="Stencil" size="96.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="243.0" layoutY="259.0" text="Bienvenu(e)">
+         <font>
+            <Font name="Times New Roman Bold" size="24.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
