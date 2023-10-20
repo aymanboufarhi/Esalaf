@@ -23,3 +23,6 @@ I have decided to represent :
 For CRUD operations, especially for deletion and modification, I needed the ID to perform the requests. Therefore, I created a text field reserved for the ID that does not appear in the interface. By clicking on a row, this field is filled with the required ID to then execute the SQL query.
 
 I also created a search field that can, for example, help retrieve the complete information of a customer using only their CIN.
+
+## Demonstration
+https://youtu.be/U0vd8Mh7lic
