@@ -14,7 +14,7 @@ I have created five interfaces :
 
 I have decided to represent :
 
-- Customers by their name, phone number, and their unique and National Identification Card (CIN) number
+- Customers by their name, phone number, and their National Identification Card (CIN) number
 
 - Products are represented by their name, price, quantity in the supermarket/store, and category
 
