@@ -10,7 +10,7 @@ I have created five interfaces :
 -  Menu (with buttons directing you to the next three interfaces)
 -  Clients
 -  Commande (Order in french)
--  Produits (Producrs in french)
+-  Produits (Products in french)
 
 I have decided to represent :
 
